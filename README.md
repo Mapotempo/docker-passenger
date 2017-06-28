@@ -17,4 +17,4 @@ In order to have it available to the other components, you need to publish it
 on hub.docker.com:
 
     docker login
-    docker publish mapotempo/nginx-passenger:latest
+    docker push mapotempo/nginx-passenger:latest
