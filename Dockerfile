@@ -19,6 +19,7 @@ ENV LC_ALL en_US.UTF-8
 ADD nginx.conf /etc/nginx/nginx.conf
 ADD vhost.conf /etc/nginx/sites-available/default
 ADD conf.d/* /etc/nginx/conf.d/
+ADD env.d/* /etc/nginx/env.d/
 ADD snippets/* /etc/nginx/snippets/
 
 # forward request and error logs to docker log collector
